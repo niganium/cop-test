@@ -29,3 +29,15 @@ ClassAndModuleChildren:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+AndOr:
+  Enabled: false
+
+# has_ から始まるメソッドは許可する
+Style/PredicateName:
+  NamePrefixBlacklist:
+    - "is_"
+    - "have_"
+  NamePrefix:
+    - "is_"
+    - "have_"
